@@ -18,7 +18,7 @@ namespace CardDealer
         public Dealer(Pack pack, List<Player> players = null)
         {
             if (pack == null)
-                throw new Exception("Dealer can not accept NULL value for pot");
+                throw new Exception("Dealer can not accept NULL value for pack");
 
             this.pack = pack;
             this.players = players;
